@@ -1,0 +1,75 @@
+body {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.div-main {
+	padding-top: 10px;
+	margin: auto;
+}
+
+@media ( max-width :768px) {
+	.div-init {
+		padding-left: 5px;
+		padding-right : 5px;
+	}
+}
+
+.div-calendar {
+	margin: auto;
+}
+
+.div-month {
+	width: 98%;
+	margin: auto;
+}
+
+table {
+	table-layout: fixed;
+}
+
+tr {
+	height: 80px;
+}
+
+td {
+	padding: 0px !important;
+}
+
+&
+.scrolltest::-webkit-scrollbar {
+	width: 8px;
+	background-color: #cccccc;
+}
+
+&
+.scrolltest::-webkit-scrollbar-thumb {
+	background-color: #333333;
+}
+
+&
+.scrolltest::-webkit-scrollbar-thumb:hover {
+	background-color: #999999;
+	border: 1px solid #333333;
+}
+
+&
+.scrolltest::-webkit-scrollbar-thumb:active {
+	background-color: #666666;
+	border: 1px solid #333333;
+}
+
+&
+.scrolltest::-webkit-scrollbar-track {
+	border: 1px gray solid;
+	-webkit-box-shadow: 0 0 2px gray inset;
+}
+
+.standard-description {
+	overflow: hidden;
+	-ms-text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	display: block;
+	width: 100%;
+}
