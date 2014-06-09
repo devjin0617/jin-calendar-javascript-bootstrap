@@ -164,6 +164,7 @@ function setCalendar(date) {
 	$('table>tbody').append(weekData);
 
 	//jinCalendar.getScheduleDate(date.getFullYear() + FormatMe(date.getMonth() + 1) + '');
+	jinCalendar.getScheduleDate();
 }
 
 function FormatMe(n) {
