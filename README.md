@@ -1,12 +1,12 @@
 jin-calendar-javascript-bootstrap
 =================================
 
-jin-calendar is html calendar source
+jin-calendar is simeple source of html calendar
 
 
 ## how to use
 
-1. css&javascript import (jquery + bootstrap + jin-calendar)
+1. import css&javascript to jquery, bootstrap and jin-calendar library
 
 ```
   <link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css" >
@@ -18,7 +18,7 @@ jin-calendar is html calendar source
 	<script src="jin.calendar.js"></script>
 ```
 
-2. html code add
+2. Add html code
 
 ```
   <div class="div-month row">
@@ -50,7 +50,7 @@ jin-calendar is html calendar source
 	</div>
 ```
 
-3. jincalendar script init
+3. init with jinCalendar
 
 ```
   <script>
